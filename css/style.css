@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  text-decoration: none;
+  text-transform: none;
+}
+/*============LOGO============*/
+:root {
+}
+
+.logo-col {
+  color: #4d5ae5;
+}
+
+/*============LINK============*/
+
+.link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.address {
+  color: #2e2f42;
+  font-style: normal;
+}
+
+.address:hover ,
+.address:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+/*============BUTTON============*/
+
+.button {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  line-height: 1.5;
+  border: none;
+  font-weight: 500;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/*============SECTION============*/
+
+.list-h {
+  font-weight: 500;
+  font-size: 20px;
+}
