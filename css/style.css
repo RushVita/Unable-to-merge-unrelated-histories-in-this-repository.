@@ -8,14 +8,16 @@
   --nav-color: #404bbf;
   --title-hero-color: #2e2f42;
 }
-
+/*================== global style =================*/
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--body-color);
+  background-color: var(--background-color);
 }
 
 .conatiner {
@@ -37,17 +39,16 @@ body {
 .nav-link {
   text-decoration: none;
   font-weight: 500;
+  color: var(--text-color);
 }
 
-.nav-link:hover,
+.nav-link:hover ,
 .nav-link:focus {
   color: var(--nav-color);
   text-decoration: underline;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-}
+
 .contacts,
 .link {
   font-style: normal;
@@ -173,7 +174,7 @@ body {
   color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -187,7 +188,7 @@ body {
   background-color: #ffffff;
 }
 
-.team-peolpe {
+.team-people {
   color: var(--title-color);
   font-weight: 500;
   font-size: 20px;
