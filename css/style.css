@@ -40,7 +40,7 @@ body {
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-  color: var(--title-color);
+
 }
 
 .nav-link:hover ,
@@ -50,8 +50,7 @@ body {
 }
 
 
-.contacts,
-.link {
+.contacts .link {
   font-style: normal;
   color: var(--body-color);
 }
@@ -107,8 +106,10 @@ body {
   font-style: normal;
   cursor: pointer;
 }
-.list >
-.button:hover,
+.button:hover {
+  background-color: var(--nav-color);
+  color: var(--background-color);
+}
 .button:focus {
   background-color: var(--nav-color);
   color: var(--background-color);
