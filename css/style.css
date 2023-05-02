@@ -10,14 +10,15 @@
 }
 /*================== global style =================*/
 body {
-  font-family: 'Roboto', 'sans-serif';
+  background-color: var(--background-color);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
-  background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .conatiner {
@@ -39,7 +40,7 @@ body {
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .nav-link:hover ,
@@ -52,10 +53,12 @@ body {
 .contacts,
 .link {
   font-style: normal;
+  color: var(--body-color);
 }
 
 .contacts,
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--nav-color);
 }
 
@@ -94,7 +97,7 @@ body {
 /*================== BUTTON =================*/
 
 .button {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   background-color: #f4f4fd;
   color: var(--logo-color);
   font-size: 16px;
@@ -102,10 +105,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-style: normal;
+  cursor: pointer;
 }
+.list >
 .button:hover,
 .button:focus {
-  background-color: var(--logo-color);
+  background-color: var(--nav-color);
   color: var(--background-color);
 }
 
@@ -123,6 +128,10 @@ body {
   color: var(--background-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--nav-color);
+}
 /*================== HERO =================*/
 
 .hero {
@@ -162,7 +171,7 @@ body {
   color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
